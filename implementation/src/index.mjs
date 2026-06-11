@@ -41,7 +41,7 @@ export const handler = async (event) => {
           numeroCuenta: "1234567890",
           tipo: "AHORROS",
           moneda: "PEN",
-          titular: "Juan Pérez",
+          titular: "Diego Flores G.",
           saldo: 5000.0,
         },
         {
