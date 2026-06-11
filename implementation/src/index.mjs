@@ -32,7 +32,7 @@ export const handler = async (event) => {
     };
   }
 
-  // ── GET /clientes/{clienteId}/cuentas ──
+  // ── GET /clientes/{clienteId}/cuentas  ──
   if (httpMethod === "GET") {
     // Datos simulados (en producción vendrían de DynamoDB o RDS)
     const cuentas = {
@@ -41,14 +41,14 @@ export const handler = async (event) => {
           numeroCuenta: "1234567890",
           tipo: "AHORROS",
           moneda: "PEN",
-          titular: "Miguel Leyva",
+          titular: "Jose Adolfo",
           saldo: 5000.0,
         },
         {
           numeroCuenta: "0987654321",
           tipo: "CORRIENTE",
           moneda: "USD",
-          titular: "Miguel Leyva",
+          titular: "Jose Adolfo",
           saldo: 1200.5,
         },
       ],
