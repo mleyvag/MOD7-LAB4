@@ -32,7 +32,7 @@ export const handler = async (event) => {
     };
   }
 
-  // ── GET /clientes/{clienteId}/cuentas ──
+  // ── GET /clientes/{clienteId}/cuentas  ──
   if (httpMethod === "GET") {
     // Datos simulados (en producción vendrían de DynamoDB o RDS)
     const cuentas = {
